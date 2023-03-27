@@ -9,7 +9,7 @@ export default function HeroSection() {
    <div className="flex flex-col">
 
     <div className="flex flex-col md:flex-row md:px-[150px] px-5 justify-center">
-      <div className="flex flex-col justify-center items-center w-1/2">
+      <div className="flex flex-col justify-center items-center lg:w-1/2">
         <h1 className="text-5xl  text-[#0B132A] font-medium py-5">
           Want anything to be easy with{" "}
           <span className="font-bold ">LaslesVPN.</span>
@@ -24,7 +24,7 @@ export default function HeroSection() {
           Get Started
         </button>
       </div>
-      <div className="flex flex-col justify-center items-center w-1/2">
+      <div className="flex flex-col justify-center items-center lg:w-1/2">
         <img
           src = {heroimg}
           alt="heroimg"
@@ -32,8 +32,8 @@ export default function HeroSection() {
         />
         </div>
     </div>
-    <div className="flex flex-col md:flex-row justify-center items-center py-10 mx-2 md:mx-[160px] bg-white mt-[70px] mb-10 rounded-xl  shadow-xl shadow-[#eaeaf0]">
-     <div className="flex flex-row items-center gap-3 px-[70px] border-r-2 border-r-[#EEEFF2]">
+    <div className="flex  flex-col md:flex-row justify-center items-center gap-4 py-5 mx-2 md:mx-[160px] bg-white mt-[70px] mb-10 rounded-xl  shadow-xl shadow-[#eaeaf0]">
+     <div className="flex flex-row items-center gap-3 px-[10px] lg:border-r-2 border-r-[#EEEFF2] w-1/3">
       <img src={usericon}
        alt="usericon"
        className="w-[50px] h-[50px]"
@@ -49,7 +49,7 @@ export default function HeroSection() {
        </div>
      </div>
      
-     <div className="flex flex-row items-center gap-3 px-[70px] border-r-2 border-r-[#EEEFF2]">
+     <div className="flex flex-row items-center  gap-3 px-[10px] lg:border-r-2 border-r-[#EEEFF2] w-1/3">
       <img src={locationicon}
        alt="usericon"
        className="w-[50px] h-[50px] "
@@ -64,7 +64,7 @@ export default function HeroSection() {
 
        </div>
      </div>
-     <div className="flex flex-row items-center gap-3  px-[70px] ">
+     <div className="flex flex-row items-center  gap-3  px-[10px]  -1/3">
       <img src={servericon}
        alt="usericon"
        className="w-[50px] h-[50px]"

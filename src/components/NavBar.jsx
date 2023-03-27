@@ -3,16 +3,16 @@ import logo from '../assets/vpnlogo.svg'
 
 export default function NavBar() {
   return (
-    <div className='flex flex-row w-full'>
-     <nav className='flex flex-row w-full justify-between py-[50px]  px-5 md:px-[150px]'>
-      <div className='hidden md:flex flex-row items-center'>
+    <div className='flex flex-col lg:flex-row  w-full'>
+     <nav className='flex flex-col lg:flex-row w-full justify-between py-[50px]  px-5 md:px-[150px]'>
+      <div className='flex flex-row items-center'>
        <img
         src={logo}
         alt='logo'
         className='w-45 h-10'
        />
        </div>
-       <div className='flex flex-row items-center gap-1 md:gap-10'>
+       <div className='flex flex-row items-center gap-3 md:gap-10'>
         <a
          href='#'
          className='text-gray-500 hover:text-gray-900'
@@ -44,7 +44,7 @@ export default function NavBar() {
         </a>
         </div>
 
-        <div className='hidden md:flex flex-row items-center gap-9'>
+        <div className='flex flex-row items-center gap-9'>
          <a
           href='#'
           className='text-[#0B132A] font-medium'

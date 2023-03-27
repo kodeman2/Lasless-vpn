@@ -4,11 +4,11 @@ import checked from "../assets/checkedicon.svg";
 
 export default function MidSection() {
   return (
-    <div className="flex flex-col md:flex-row px-4 md:px-[150px] py-[80px] gap-10 ">
-      <div className="flex justify-center w-1/2">
+    <div className="flex flex-col md:flex-row px-4 md:px-[150px] py-[50px] gap-5 ">
+      <div className="flex justify-center lg:w-1/2">
         <img src={midimage} alt="midimage" className="w-[500px] h-[390px]" />
       </div>
-      <div className="flex flex-col pt-10 px-8 w-1/2">
+      <div className="flex flex-col pt-10 px-8 lg:w-1/2">
         <h1 className="text-[#0B132A] font-medium text-4xl">
           We Provide Many Features You Can Use
         </h1>
