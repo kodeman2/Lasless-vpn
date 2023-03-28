@@ -1,12 +1,14 @@
 {
   "name": "vpn-site",
-  "private": false,
+  "private": true,
+  "homepage": "http://kodeman2.github.io/Lasless-vpn",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+   
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -16,14 +18,15 @@
     "react-router-dom": "^6.6.2",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4",
-    "swiper": "^8.4.6"
+    "swiper": "^8.4.6",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "vite": "^4.0.0"
